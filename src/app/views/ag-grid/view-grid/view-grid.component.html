@@ -1,0 +1,14 @@
+<ag-grid-angular #agGrid id="myGrid" style="width: 100%; height: 90vh;" class="ag-theme-alpine"
+    [gridOptions]="gridOptions"
+    [rowData]="rowData"
+    [frameworkComponents]="frameworkComponents" 
+    [getRowHeight]="getRowHeight" 
+    [rowHeight]="rowHeight"
+    [rowSelection]="rowSelection"
+    (rowSelected)="onSelect($event)"
+    [modules]="modules"
+    [popupParent]="popupParent"
+    [getContextMenuItems]="getContextMenuItems"
+    [paginationPageSize]="25"
+    [pagination]="true">
+</ag-grid-angular>

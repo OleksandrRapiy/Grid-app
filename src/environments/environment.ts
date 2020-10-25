@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  youtubeApi: 'https://www.googleapis.com/youtube/v3/search?key=AIzaSyD1lY9ilTe6_bHPywJPMv6YmVBcTW-Tatg&maxResults=100&type=video&part=snippet&q=cicada'
 };
 
 /*

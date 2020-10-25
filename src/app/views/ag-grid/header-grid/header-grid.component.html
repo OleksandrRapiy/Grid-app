@@ -1,0 +1,13 @@
+<div class="ag-header-group-cell-label container">
+    <div class="ag-header-group-cell-label toolbar">
+        <mat-slide-toggle class="" [color]="'primary'" [checked]="true" (click)="toggleMode()">
+        </mat-slide-toggle>
+        Selection mode
+    </div>
+    <div class="ag-header-group-cell-label toolbar">
+        Total records: {{dataTransferService.totalVideos | async}}
+    </div>
+    <div class="ag-header-group-cell-label toolbar">
+        Selected records: {{dataTransferService.selectedVideos | async}}
+    </div>
+</div>
